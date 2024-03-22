@@ -16,6 +16,21 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
+
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('poll.index')" :active="request()->routeIs('poll.index')">
+                        {{ __('Encuestas') }}
+                    </x-nav-link>
+                </div>
+
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('poll.create')" :active="request()->routeIs('poll.create')">
+                        {{ __('Crear nueva encuesta') }}
+                    </x-nav-link>
+                </div>
+
+                
+
             </div>
 
             <!-- Settings Dropdown -->

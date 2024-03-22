@@ -25,7 +25,7 @@
             @endforeach
 
             <button class="waves-effect waves-light btn info darken-2" type="submit">
-                vote
+                Votar
             </button>
         </form>
     </div>

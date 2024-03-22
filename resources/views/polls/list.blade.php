@@ -3,19 +3,19 @@
 @section('content')
     <div class="container">
         <h1 class="center">
-            All Polls
+            Encuestas activas
         </h1>
         <div class="row">
             <a class="waves-effect waves-light btn info darken-2" href="{{route('poll.create')}}">
-            new poll &plus;
+            nueva encuesta &plus;
             </a>
         </div>
   <table class="centered">
         <thead>
           <tr>
-              <th>Title</th>
-              <th>Status</th>
-              <th>Actions</th>
+              <th>Encuesta</th>
+              <th>Estado</th>
+              <th>Acciones</th>
           </tr>
         </thead>
 
